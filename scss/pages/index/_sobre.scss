@@ -1,0 +1,17 @@
+main {
+  .sobre {
+    padding: 30px $container-padding;
+    background-color: $grey;
+
+    h3,
+    p {
+      font: 400 16px $font;
+      margin: 1rem 0;
+    }
+
+    h2 {
+      font: bold 28px $font;
+      color: $marinho-brand;
+    }
+  }
+}
