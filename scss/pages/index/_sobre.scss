@@ -1,17 +1,41 @@
 main {
   .sobre {
-    padding: 30px $container-padding;
-    background-color: $grey;
+    height: 100vh;
+    padding: 70px $container-padding;
+    background-color: #EEEEEE;
+    display: flex;
+    justify-content: space-between;
+    
 
-    h3,
-    p {
-      font: 400 16px $font;
-      margin: 1rem 0;
+    .coluna-esquerda-wrapper{
+
+      text-align: right;
     }
 
-    h2 {
-      font: bold 28px $font;
-      color: $marinho-brand;
+    .coluna-direita-wrapper{
+
+      text-align: left;
     }
+
+    .coluna-esquerda-wrapper, .coluna-direita-wrapper{
+
+      width: 40%;
+      
+      h3,
+      p {
+        font: 400 18px $font;
+        margin: 1rem 0;
+        padding-bottom: 1rem;
+      }
+      
+      h2 {
+        font: bold 28px $font;
+        color: $marinho-brand;
+        padding-bottom: 2.5rem;
+
+      }
+      
+    }
+
   }
 }
