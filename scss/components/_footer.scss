@@ -3,13 +3,35 @@ footer {
   padding: 60px $container-padding;
   position: relative;
 
-  ul {
+  .logo-social {
     display: flex;
     list-style-type: none;
     margin-bottom: 3rem;
 
     li {
       margin-right: 2rem;
+    }
+  }
+
+  .footer-categorias-wrapper {
+    display: flex;
+    flex-direction: row;
+
+    div {
+      width: 20%;
+
+      .list {
+        // display: flex;
+
+        list-style-type: none;
+        margin-bottom: 3rem;
+
+        li {
+          margin-right: 2rem;
+          list-style: none;
+          padding-bottom: 10px;
+        }
+      }
     }
   }
 
@@ -32,6 +54,19 @@ footer {
         font: 700 16px $font;
         color: #fff;
         margin-bottom: 1rem;
+      }
+    }
+  }
+  .creditCard-list{
+
+    display: flex;
+    list-style: none;
+    justify-content: flex-end;
+
+    li{
+      svg{
+        width: 100px;
+        height: 50px;
       }
     }
   }

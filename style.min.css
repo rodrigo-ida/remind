@@ -45,11 +45,11 @@ header .row form input {
   display: block;
   padding: 0.75rem 1.5rem;
   border-radius: 25px;
-  border: 1px solid #768688;
+  border: 1px solid #b3c134;
 }
 header .row form input::placeholder {
   font: bold 16px "Lato", sans-serif;
-  color: #768688;
+  color: #b3c134;
 }
 header .row div {
   display: flex;
@@ -249,13 +249,29 @@ footer {
   padding: 60px 10%;
   position: relative;
 }
-footer ul {
+footer .logo-social {
   display: flex;
   list-style-type: none;
   margin-bottom: 3rem;
 }
-footer ul li {
+footer .logo-social li {
   margin-right: 2rem;
+}
+footer .footer-categorias-wrapper {
+  display: flex;
+  flex-direction: row;
+}
+footer .footer-categorias-wrapper div {
+  width: 20%;
+}
+footer .footer-categorias-wrapper div .list {
+  list-style-type: none;
+  margin-bottom: 3rem;
+}
+footer .footer-categorias-wrapper div .list li {
+  margin-right: 2rem;
+  list-style: none;
+  padding-bottom: 10px;
 }
 footer section {
   display: flex;
@@ -276,6 +292,15 @@ footer section div a {
   color: #fff;
   margin-bottom: 1rem;
 }
+footer .creditCard-list {
+  display: flex;
+  list-style: none;
+  justify-content: flex-end;
+}
+footer .creditCard-list li svg {
+  width: 100px;
+  height: 50px;
+}
 
 main .banner {
   color: white;
@@ -290,6 +315,7 @@ main .banner .banner-item {
 main .banner .banner-item h1 {
   font: bold 52px "Lato", sans-serif;
   width: 45%;
+  text-shadow: 1px 1px black;
 }
 main .banner .banner-item h2 {
   font: 500 20px "Lato", sans-serif;
@@ -301,7 +327,7 @@ main .banner .banner-item a {
   color: #fff;
   padding: 1rem;
   border-radius: 25px;
-  background-color: #768688;
+  background-color: #b3c134;
   width: min-content;
 }
 main .banner .slick-dots {
@@ -484,7 +510,7 @@ main .contato aside:last-child .item-row a,
 main .contato aside:last-child .item-row address {
   font: bold 18px "Lato", sans-serif;
   font-style: normal;
-  color: #768688;
+  color: #b3c134;
 }
 main .contato aside h2 {
   font: 700 42px "Lato", sans-serif;
