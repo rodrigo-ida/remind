@@ -256,7 +256,7 @@ footer .footer-categorias-wrapper {
   flex-direction: row;
 }
 footer .footer-categorias-wrapper div {
-  width: 20%;
+  padding-right: 1rem;
 }
 footer .footer-categorias-wrapper div .list {
   list-style-type: none;
@@ -294,6 +294,19 @@ footer .creditCard-list {
 footer .creditCard-list li svg {
   width: 100px;
   height: 50px;
+}
+@media screen and (max-width: 767px) {
+  footer .footer-categorias-wrapper {
+    flex-wrap: wrap;
+  }
+  footer .creditCard-list {
+    display: flex;
+    list-style: none;
+    justify-content: space-evenly;
+  }
+  footer .creditCard-list li svg {
+    width: 50px;
+  }
 }
 
 main .banner {
