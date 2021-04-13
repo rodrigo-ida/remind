@@ -4,13 +4,14 @@ main {
     padding: 70px $container-padding;
     background-color: #EEEEEE;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     min-height: 100vh;
     
 
     .coluna-esquerda-wrapper{
 
       text-align: right;
+      padding-right:10%;
     }
 
     .coluna-direita-wrapper{

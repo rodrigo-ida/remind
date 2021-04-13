@@ -884,11 +884,12 @@ main .sobre {
   padding: 70px 10%;
   background-color: #EEEEEE;
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   min-height: 100vh;
 }
 main .sobre .coluna-esquerda-wrapper {
   text-align: right;
+  padding-right: 10%;
 }
 main .sobre .coluna-direita-wrapper {
   text-align: left;
