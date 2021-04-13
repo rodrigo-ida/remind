@@ -1,10 +1,11 @@
 main {
   .sobre {
-    height: 100vh;
+    height: auto;
     padding: 70px $container-padding;
     background-color: #EEEEEE;
     display: flex;
     justify-content: space-between;
+    min-height: 100vh;
     
 
     .coluna-esquerda-wrapper{
@@ -19,7 +20,7 @@ main {
 
     .coluna-esquerda-wrapper, .coluna-direita-wrapper{
 
-      width: 40%;
+      // width: 40%;
       
       h3,
       p {
@@ -35,6 +36,12 @@ main {
 
       }
       
+    }
+
+    @media screen and (max-width: 767px) {
+
+      flex-wrap: wrap;
+
     }
 
   }

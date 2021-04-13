@@ -153,14 +153,7 @@ header {
           
         }
 
-        &.has-submenu {
-          &::after {
-            content: url("svg/arrow-down.svg");
-            right: -25px;
-            top: -0.5px;
-            position: absolute;
-          }
-        }
+
 
         &.first {
           .submenu-container {
