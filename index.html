@@ -18,6 +18,8 @@
       type="text/css"
       href="https://vjs.zencdn.net/7.11.4/video-js.css"
     />
+    <!-- <link href="https://unpkg.com/video.js@7.3.0/dist/video-js.min.css" rel="stylesheet"> -->
+
 
     <link rel="stylesheet" href="style.min.css" />
     <!-- <base href="https://www.remindbrindes.com.br/" /> -->
@@ -1509,25 +1511,39 @@
         <aside>
           <video
             id="my-video"
-            class="video-js"
+            class="video-js vjs-big-play-centered"
             controls
             preload="auto"
             poster="img/Discovery.jpg"
             data-setup='{"fluid": true}'
-          >
-            <button id="playpause" type="button" data-state="play">
-              Play/Pause
-            </button>
-
+            >
             <source src="video/discovery.mp4" type="video/mp4" />
+            
             <p class="vjs-no-js">
               To view this video please enable JavaScript, and consider
               upgrading to a web browser that
               <a href="https://videojs.com/html5-video-support/" target="_blank"
-                >supports HTML5 video</a
+              >supports HTML5 video</a
               >
             </p>
           </video>
+
+         
+          
+          
+          <!-- <video id="player" 
+          class="video-js vjs-big-play-centered" 
+          controls preload="none" 
+          width="960" 
+          height="400" 
+        data-setup='{fluid: true}'>
+        
+          </video> -->
+
+
+
+
+
         </aside>
 
         <aside>
@@ -2177,6 +2193,11 @@
       src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"
     ></script>
     <script src="https://vjs.zencdn.net/7.11.4/video.min.js"></script>
+
+    <!-- <script src="https://unpkg.com/video.js@7.3.0/dist/video.min.js"></script>
+<script src="newskin.js"></script> -->
+
+    
     <script src="script.js"></script>
   </body>
 </html>

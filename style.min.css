@@ -912,9 +912,13 @@ main .video-depoimento {
 main .video-depoimento aside .video-js {
   max-width: 100%;
   max-height: 100%;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+}
+main .video-depoimento aside .video-js .vjs-big-play-button {
+  width: 20%;
+  height: 20%;
+}
+main .video-depoimento aside .video-js .vjs-big-play-button .vjs-icon-placeholder:before {
+  font-size: 40px;
 }
 main .video-depoimento aside h2 {
   font: 700 28px "Lato", sans-serif;
