@@ -1,103 +1,145 @@
 footer {
-  background-color: $verde-brand;
-  padding: 60px $container-padding;
+  padding: 60px 0 0 0;
   position: relative;
-
-  .logo-social {
+  width: 100%;
+  
+  
+  
+  .footer-newsletter{
     display: flex;
-    list-style-type: none;
-    margin-bottom: 3rem;
+    width: 100%;
+    background-color: gray;
+    padding: 20px 30px;
 
-    li {
-      margin-right: 2rem;
+
+    p{
+      font-size: 2rem;
+    letter-spacing: 2px;
+    color: white;
+    padding-right: 1%;
+    font-weight: 700;
+
     }
-  }
 
-  .footer-categorias-wrapper {
-    display: flex;
-    flex-direction: row;
+    form{
+      width: 50%;
+      display: flex;
 
-    div {
+      
+      input{
 
+        width: 100%;
+        border: none;
+        border-radius: 10px;
+        
+      }
 
-    //   width: 25%;
-    // min-width: 20%;
-    padding-right: 1rem;
+      .input{
+        padding-left: 20px;
 
-      .list {
-        // display: flex;
+      }
+      
+      .submit{
+        border-radius: 0px;
+        width: 20%;
+        margin-left: 30px;
+    border: 2px solid white;
+    background: transparent;
+    color: white;
 
-        list-style-type: none;
-        margin-bottom: 3rem;
-
-        li {
-          margin-right: 2rem;
-          list-style: none;
-          padding-bottom: 10px;
-        }
       }
     }
+
+
   }
 
-  section {
-    display: flex;
-    flex-wrap: wrap;
+  .footer-bottom{
 
-    div {
+    background-color: lightgray;
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 30px;
+
+    .footer-contact, .footer-atendimento, .footer-sociais{
+
+      width: 33%;
       display: flex;
       flex-direction: column;
-      margin-right: 3rem;
 
-      h2 {
-        font: 700 16px $font;
-        color: #505050;
-        margin-bottom: 2rem;
+      h2{
+        font-weight: bolder;
+    padding-bottom: 6%;
+    font-size: 1.5rem;
+    color: #58585A;
+
       }
 
-      a {
-        font: 700 16px $font;
-        color: #fff;
-        margin-bottom: 1rem;
-      }
+     
+
+
     }
-  }
-  .creditCard-list{
 
+
+.footer-contact{
+  padding-right: 5%;
+
+  p{
+    color: #58585A;
+    font-weight: 500;
+    width: 70%;
+
+
+
+  }
+  
+  
+}
+.footer-atendimento{
+  padding-right: 5%;
+
+  .icon{
+    width: 30px;
+    margin-right: 10px;
+  }
+
+  .icon-content-wrapper{
     display: flex;
-    list-style: none;
-    justify-content: flex-end;
+    padding-bottom: 20px;
 
-    li{
-      svg{
-        width: 100px;
-        height: 50px;
+  }
+
+  
+}
+.footer-sociais{
+
+  .icons-social{
+
+    .icon-content-social-wrapper{
+      display: flex;
+      padding-bottom: 20px;
+
+      img{
+        width: 40px;
+        margin-right: 20px;
       }
+      
     }
   }
+
+}
+
+
+  }
+
+
+
+  
+
 
   @media screen and (max-width: 767px) {
 
-    .footer-categorias-wrapper {
-      // display: flex;
-      // flex-direction: row;
-      flex-wrap: wrap;
 
 
-    }
-
-    .creditCard-list{
-
-      display: flex;
-      list-style: none;
-      justify-content: space-evenly;
-  
-      li{
-        svg{
-          width: 50px;
-          // height: 20px;
-        }
-      }
-    }
 
 
   }

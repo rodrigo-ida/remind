@@ -1,6 +1,6 @@
 main {
   .clientes-atendidos {
-    padding: $container-padding;
+    padding: 6% $container-padding;
 
     h2 {
       font: 700 28px $font;
@@ -39,6 +39,7 @@ main {
     h3 {
       font: 700 36px $font;
       text-align: center;
+      padding-bottom:30px ;
     }
 
     blockquote {

@@ -7,6 +7,10 @@
   font: 400 16px $font;
 }
 
+body{
+  padding-top: 1px;  //evitar margin-collapse
+}
+
 img {
   max-width: 100%;
   height: auto;
