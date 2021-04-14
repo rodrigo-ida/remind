@@ -4,8 +4,9 @@ header {
   display: flex;
   flex-direction: column;
   width: 100%;
-  background-color: white;
+  background-color: #ffffff;
   height: 100px;
+  margin-top: -1px;
 
 
   > *:not(.mobile-button) {
@@ -177,8 +178,11 @@ header {
       justify-content: space-between;
       list-style-type: none;
 
+
+
       li {
         position: relative;
+        
 
         a {
           text-transform: uppercase;
@@ -190,12 +194,22 @@ header {
 
 
         &.first {
+
+          &.has-submenu {
+            &::after {
+              content: url("svg/arrow-down.svg");
+              right: -25px;
+              top: -0.5px;
+              position: absolute;
+            }
+          }
           .submenu-container {
             max-width: 80vw;
 
             .submenu {
               flex-direction: row;
               justify-content: flex-start;
+
             }
           }
         }
